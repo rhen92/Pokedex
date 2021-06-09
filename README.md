@@ -64,20 +64,20 @@ A React application featuring original Pokemon built in 11 days, where team self
 #### Authors
 <table>
   <tr>
+    <td> Rachel Hendricks <a href="https://github.com/rhen92">GH</td>  
     <td> Ashish Malla <a href="https://github.com/asiisii">GH</td>
     <td> Dustin Harbaugh <a href="https://github.com/Thee-Dust">GH</td>
-    <td> Rachel Hendricks <a href="https://github.com/rhen92">GH</td>
   </tr>
+  <td>
+    <img src="https://avatars.githubusercontent.com/u/76266623?v=4" alt="Rachel's' GH img"
+  width="150" height="auto" />
+  </td>
   <td>
     <img src="https://avatars.githubusercontent.com/u/36644181?v=4" alt="Asiisii's GH img"
   width="150" height="auto" />
   </td>  
   <td>
     <img src="https://avatars.githubusercontent.com/u/75390410?v=4" alt="Dust's GH img"
-  width="150" height="auto" />
-  </td>
-  <td>
-    <img src="https://avatars.githubusercontent.com/u/76266623?v=4" alt="Rachel's' GH img"
   width="150" height="auto" />
   </td>
 </table>
