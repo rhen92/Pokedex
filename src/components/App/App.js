@@ -9,7 +9,6 @@ import Signup from '../Signup/Signup'
 import Login from '../Login/Login';
 import Home from '../Home/Home';
 import './App.css';
-// import useIsMounted from '../useIsMounted'
 
 const App = () => {
   const [pokemons, setPokemons] = useState([])
@@ -25,7 +24,7 @@ const App = () => {
       }))
     }
   }
-      
+
   useEffect(() => {
     const fetchPokemon = async () => {
       setError('')
@@ -45,27 +44,27 @@ const App = () => {
         <Switch>
           <Route exact path="/signup" component={Signup} />
           <Route exact path="/login" component={Login} />
- 
+
           <PrivateRoute
             exact path="/"
             component={Home}
             pokemons={pokemons}
-            caught={caughtPokemon} 
-            favorite={catchPokemon} 
+            caught={caughtPokemon}
+            favorite={catchPokemon}
             error={error}
           />
-        
-          <PrivateRoute path='/caught' 
-            component={Caught} 
-            pokemons={pokemons} 
-            caught={caughtPokemon} 
-            favorite={catchPokemon} 
+
+          <PrivateRoute path='/caught'
+            component={Caught}
+            pokemons={pokemons}
+            caught={caughtPokemon}
+            favorite={catchPokemon}
             error={error}
             />
-            
+
           <PrivateRoute path="/:id"
-            component={PokemonDetails}  
-            caught={caughtPokemon} 
+            component={PokemonDetails}
+            caught={caughtPokemon}
             favorite={catchPokemon}
           />
         </Switch>
